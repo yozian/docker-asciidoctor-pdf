@@ -12,7 +12,7 @@
 ```
 
 docker run --rm \
-  -v `your/adoc/folder`:/document \
+  -v "your/adoc/folder":/document \
   yozian/docker-asciidoctor-pdf \
   "/document/your-file.adoc"
   
